@@ -45,13 +45,10 @@ function Details({ game }: {game?: GameBundle}) {
           </Section>
         ) : (
           <Section>
-            <h1>Gamba Demo</h1>
-            <div>
-              A decentralized, provably-fair casino built on <a target="_blank" href="https://github.com/gamba-labs/gamba" rel="noreferrer">gamba</a>.
-            </div>
+            <h1>JOIN US</h1>
             <div style={{ display: 'flex', gap: '20px' }}>
-              <Button onClick={() => window.open('https://twitter.com/gambalabs', '_blank')}>
-                Read More
+              <Button onClick={() => window.open('https://magiceden.io/marketplace/apes_on_space', '_blank')}>
+                Buy NFT
               </Button>
             </div>
           </Section>

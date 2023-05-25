@@ -38,12 +38,13 @@ const StyledNavigationLink = styled(NavLink)`
   transition: color .1s, border .1s;
   white-space: nowrap;
   text-transform: uppercase;
+  font-size: 20px;
 `
 
 const Links = styled.div`
   display: flex;
   gap: 20px;
-  font-size: 20px;
+  font-size: px;
   align-items: center;
   & > a > svg {
     display: block;
@@ -63,16 +64,13 @@ export function Header() {
     <Wrapper>
       <NavigationLink to="/">
         <Logo src="/logo.png" />
-        <div className="label">Gamba Demo</div>
+        <div className="label">APES ON SPACE</div>
       </NavigationLink>
       <Links>
-        <a target="_blank" href="https://github.com/gamba-labs/gamba" rel="noreferrer">
-          <FaGithub />
-        </a>
-        <a target="_blank" href="http://discord.gg/xjBsW3e8fK" rel="noreferrer">
+        <a target="_blank" href="https://discord.com/invite/66KjZ6wvg2" rel="noreferrer">
           <FaDiscord />
         </a>
-        <a target="_blank" href="https://twitter.com/GambaLabs" rel="noreferrer">
+        <a target="_blank" href="https://twitter.com/aos_NFT" rel="noreferrer">
           <FaTwitter />
         </a>
       </Links>
